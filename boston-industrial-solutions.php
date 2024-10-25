@@ -108,12 +108,12 @@ if ( ! function_exists( 'boston_plugin_action_links_callback' ) ) {
 	 * @return array
 	 */
 	function boston_plugin_action_links_callback( $links ) {
-		$this_plugin_links = array(
+		$links = array(
 			'settings'   => '<a title="' . __( 'Settings', 'boston' ) . '" href="' . esc_url( admin_url( 'admin.php' ) ) . '">' . __( 'Settings', 'boston' ) . '</a>',
 			'deactivate' => __( 'Deactivate', 'boston' ),
 		);
 
-		return array_merge( $this_plugin_links, $links );
+		return $links;
 	}
 }
 
