@@ -118,7 +118,7 @@ if ( ! function_exists( 'boston_plugin_action_links_callback' ) ) {
 	function boston_plugin_action_links_callback( $links ) {
 		$links = array(
 			'settings'    => '<a title="' . __( 'Settings', 'boston' ) . '" href="' . esc_url( admin_url( 'admin.php' ) ) . '">' . __( 'Settings', 'boston' ) . '</a>',
-			'dev_support' => __( 'Developer Support', 'boston' ),,
+			'dev_support' => __( 'Developer Support', 'boston' ),
 			'deactivate'  => __( 'Deactivate', 'boston' ),
 		);
 
