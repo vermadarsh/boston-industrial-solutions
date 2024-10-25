@@ -21,7 +21,7 @@
  * Author URI:        https://github.com/vermadarsh/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       boston-industrial-solutions
+ * Text Domain:       boston
  * Domain Path:       /languages
  */
 
@@ -108,9 +108,9 @@ if ( ! function_exists( 'boston_plugin_action_links_callback' ) ) {
 	 * @return array
 	 */
 	function boston_plugin_action_links_callback( $links ) {
-		debug( $links );
 		$this_plugin_links = array(
-			'<a title="' . __( 'Settings', 'sync-vendor' ) . '" href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=sync-vendor' ) ) . '">' . __( 'Settings', 'sync-vendor' ) . '</a>',
+			'settings'   => '<a title="' . __( 'Settings', 'boston' ) . '" href="' . esc_url( admin_url( 'admin.php' ) ) . '">' . __( 'Settings', 'boston' ) . '</a>',
+			'deactivate' => __( 'Deactivate', 'boston' ),
 		);
 
 		return array_merge( $this_plugin_links, $links );
