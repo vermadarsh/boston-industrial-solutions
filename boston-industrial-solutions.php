@@ -17,7 +17,7 @@
  * Plugin URI:        https://github.com/vermadarsh/boston-industrial-solutions
  * Description:       This plugin holds all the core functionalities related to the project, Boston Industrial Solutions.
  * Version:           1.0.0
- * Author:            Adarsh Verma (Concatstring)
+ * Author:            Adarsh Verma
  * Author URI:        https://github.com/vermadarsh/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -37,12 +37,22 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'BOSTON_INDUSTRIAL_SOLUTIONS_VERSION', '1.0.0' );
 
+// If the plugin path constant is not defined.
+if ( ! defined( 'BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH' ) ) {
+	define( 'BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
+}
+
+// If the plugin url constant is not defined.
+if ( ! defined( 'BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_URL' ) ) {
+	define( 'BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+}
+
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-boston-industrial-solutions-activator.php
  */
 function activate_boston_industrial_solutions() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-boston-industrial-solutions-activator.php';
+	require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/class-boston-industrial-solutions-activator.php';
 	Boston_Industrial_Solutions_Activator::activate();
 }
 
@@ -51,18 +61,12 @@ function activate_boston_industrial_solutions() {
  * This action is documented in includes/class-boston-industrial-solutions-deactivator.php
  */
 function deactivate_boston_industrial_solutions() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-boston-industrial-solutions-deactivator.php';
+	require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/class-boston-industrial-solutions-deactivator.php';
 	Boston_Industrial_Solutions_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_boston_industrial_solutions' );
 register_deactivation_hook( __FILE__, 'deactivate_boston_industrial_solutions' );
-
-/**
- * The core plugin class that is used to define internationalization,
- * admin-specific hooks, and public-facing site hooks.
- */
-require plugin_dir_path( __FILE__ ) . 'includes/class-boston-industrial-solutions.php';
 
 /**
  * Begins execution of the plugin.
@@ -74,10 +78,14 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-boston-industrial-solution
  * @since    1.0.0
  */
 function run_boston_industrial_solutions() {
+	/**
+	 * The core plugin class that is used to define internationalization,
+	 * admin-specific hooks, and public-facing site hooks.
+	 */
+	require BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/class-boston-industrial-solutions.php';
 
 	$plugin = new Boston_Industrial_Solutions();
 	$plugin->run();
-
 }
 
 /**

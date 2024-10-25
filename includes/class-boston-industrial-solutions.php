@@ -67,18 +67,13 @@ class Boston_Industrial_Solutions {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'BOSTON_INDUSTRIAL_SOLUTIONS_VERSION' ) ) {
-			$this->version = BOSTON_INDUSTRIAL_SOLUTIONS_VERSION;
-		} else {
-			$this->version = '1.0.0';
-		}
+		$this->version     = ( defined( 'BOSTON_INDUSTRIAL_SOLUTIONS_VERSION' ) ) ? BOSTON_INDUSTRIAL_SOLUTIONS_VERSION : '1.0.0';
 		$this->plugin_name = 'boston-industrial-solutions';
 
 		$this->load_dependencies();
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
-
 	}
 
 	/**
@@ -95,35 +90,26 @@ class Boston_Industrial_Solutions {
 	 * with WordPress.
 	 *
 	 * @since    1.0.0
+	 *
 	 * @access   private
 	 */
 	private function load_dependencies() {
+		// The class responsible for orchestrating the actions and filters of the core plugin.
+		require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/class-boston-industrial-solutions-loader.php';
 
-		/**
-		 * The class responsible for orchestrating the actions and filters of the
-		 * core plugin.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-boston-industrial-solutions-loader.php';
+		// The class responsible for defining internationalization functionality of the plugin.
+		require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/class-boston-industrial-solutions-i18n.php';
 
-		/**
-		 * The class responsible for defining internationalization functionality
-		 * of the plugin.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-boston-industrial-solutions-i18n.php';
+		// The file responsible for defining all reusable functions.
+		require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'includes/boston-industrial-solutions-functions.php';
 
-		/**
-		 * The class responsible for defining all actions that occur in the admin area.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-boston-industrial-solutions-admin.php';
+		// The class responsible for defining all actions that occur in the admin area.
+		require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'admin/class-boston-industrial-solutions-admin.php';
 
-		/**
-		 * The class responsible for defining all actions that occur in the public-facing
-		 * side of the site.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-boston-industrial-solutions-public.php';
+		// The class responsible for defining all actions that occur in the public-facing side of the site.
+		require_once BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'public/class-boston-industrial-solutions-public.php';
 
 		$this->loader = new Boston_Industrial_Solutions_Loader();
-
 	}
 
 	/**
@@ -136,11 +122,9 @@ class Boston_Industrial_Solutions {
 	 * @access   private
 	 */
 	private function set_locale() {
-
 		$plugin_i18n = new Boston_Industrial_Solutions_i18n();
 
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
-
 	}
 
 	/**
@@ -151,12 +135,9 @@ class Boston_Industrial_Solutions {
 	 * @access   private
 	 */
 	private function define_admin_hooks() {
-
 		$plugin_admin = new Boston_Industrial_Solutions_Admin( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-
+		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'boston_admin_enqueue_scripts_callback' );
 	}
 
 	/**
@@ -167,12 +148,9 @@ class Boston_Industrial_Solutions {
 	 * @access   private
 	 */
 	private function define_public_hooks() {
-
 		$plugin_public = new Boston_Industrial_Solutions_Public( $this->get_plugin_name(), $this->get_version() );
 
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-
+		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'boston_wp_enqueue_scripts_callback' );
 	}
 
 	/**
@@ -214,5 +192,4 @@ class Boston_Industrial_Solutions {
 	public function get_version() {
 		return $this->version;
 	}
-
 }

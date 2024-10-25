@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The public-facing functionality of the plugin.
  *
@@ -48,10 +47,8 @@ class Boston_Industrial_Solutions_Public {
 	 * @param      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
-
 		$this->plugin_name = $plugin_name;
-		$this->version = $version;
-
+		$this->version     = $version;
 	}
 
 	/**
@@ -59,45 +56,32 @@ class Boston_Industrial_Solutions_Public {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles() {
+	public function boston_wp_enqueue_scripts_callback() {
+		// Custom public css.
+		wp_enqueue_style(
+			$this->plugin_name,
+			BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_URL . 'public/css/boston-industrial-solutions-public.css',
+			array(),
+			filemtime( BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'public/css/boston-industrial-solutions-public.css' ),
+			'all'
+		);
 
-		/**
-		 * This function is provided for demonstration purposes only.
-		 *
-		 * An instance of this class should be passed to the run() function
-		 * defined in Boston_Industrial_Solutions_Loader as all of the hooks are defined
-		 * in that particular class.
-		 *
-		 * The Boston_Industrial_Solutions_Loader will then create the relationship
-		 * between the defined hooks and the functions defined in this
-		 * class.
-		 */
+		// Custom public js.
+		wp_enqueue_script(
+			$this->plugin_name,
+			BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_URL . 'public/js/boston-industrial-solutions-public.js',
+			array( 'jquery' ),
+			filemtime( BOSTON_INDUSTRIAL_SOLUTIONS_PLUGIN_PATH . 'public/js/boston-industrial-solutions-public.js' ),
+			true
+		);
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/boston-industrial-solutions-public.css', array(), $this->version, 'all' );
-
+		// Localize variables.
+		wp_localize_script(
+			$this->plugin_name,
+			'Boston_Industrial_Solutions_Public_Js',
+			array(
+				'ajax_url' => admin_url( 'admin-ajax.php' ),
+			)
+		);
 	}
-
-	/**
-	 * Register the JavaScript for the public-facing side of the site.
-	 *
-	 * @since    1.0.0
-	 */
-	public function enqueue_scripts() {
-
-		/**
-		 * This function is provided for demonstration purposes only.
-		 *
-		 * An instance of this class should be passed to the run() function
-		 * defined in Boston_Industrial_Solutions_Loader as all of the hooks are defined
-		 * in that particular class.
-		 *
-		 * The Boston_Industrial_Solutions_Loader will then create the relationship
-		 * between the defined hooks and the functions defined in this
-		 * class.
-		 */
-
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/boston-industrial-solutions-public.js', array( 'jquery' ), $this->version, false );
-
-	}
-
 }
