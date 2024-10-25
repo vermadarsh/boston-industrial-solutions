@@ -17,7 +17,7 @@
  * Plugin URI:        https://github.com/vermadarsh/boston-industrial-solutions
  * Description:       This plugin holds all the core functionalities related to the project, Boston Industrial Solutions.
  * Version:           1.0.0
- * Author:            Adarsh Verma
+ * Author:            Adarsh Verma (Concatstring)
  * Author URI:        https://github.com/vermadarsh//
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
