@@ -90,8 +90,48 @@ if ( ! function_exists( 'boston_plugins_loaded_callback' ) ) {
 	 * @since 1.0.0
 	 */
 	function boston_plugins_loaded_callback() {
+		add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'boston_plugin_action_links_callback' );
 		run_boston_industrial_solutions();
 	}
 }
 
 add_action( 'plugins_loaded', 'boston_plugins_loaded_callback' );
+
+/**
+ * Check if the function, `boston_plugin_action_links_callback` exists.
+ */
+if ( ! function_exists( 'boston_plugin_action_links_callback' ) ) {
+	/**
+	 * This function adds custom plugin actions.
+	 *
+	 * @param array $links Links array.
+	 * @return array
+	 */
+	function boston_plugin_action_links_callback( $links ) {
+		debug( $links );
+		$this_plugin_links = array(
+			'<a title="' . __( 'Settings', 'sync-vendor' ) . '" href="' . esc_url( admin_url( 'admin.php?page=wc-settings&tab=sync-vendor' ) ) . '">' . __( 'Settings', 'sync-vendor' ) . '</a>',
+		);
+
+		return array_merge( $this_plugin_links, $links );
+	}
+}
+
+/**
+ * Check if the function, `debug` doesn't exist.
+ */
+if ( ! function_exists( 'debug' ) ) {
+	/**
+	 * Print_r any variable.
+	 * This should be removed from the production environment and should only be added when troubleshooting.
+	 *
+	 * @param string $params Variable to display the content of.
+	 *
+	 * @since 1.0.0
+	 */
+	function debug( $params ) {
+		echo '<pre>';
+		print_r( $params );
+		echo '</pre>';
+	}
+}
