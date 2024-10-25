@@ -80,8 +80,16 @@ function run_boston_industrial_solutions() {
 
 }
 
-if ( ! function_exists( 'boston-industrial-solutions' ) ) {
-	function boston-industrial-solutions() {
+/**
+ * Check if the function, `boston_plugins_loaded_callback` exists.
+ */
+if ( ! function_exists( 'boston_plugins_loaded_callback' ) ) {
+	/**
+	 * Execute this plugin.
+	 *
+	 * @since 1.0.0
+	 */
+	function boston_plugins_loaded_callback() {
 		run_boston_industrial_solutions();
 	}
 }
