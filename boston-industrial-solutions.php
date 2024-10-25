@@ -79,4 +79,11 @@ function run_boston_industrial_solutions() {
 	$plugin->run();
 
 }
-run_boston_industrial_solutions();
+
+if ( ! function_exists( 'boston-industrial-solutions' ) ) {
+	function boston-industrial-solutions() {
+		run_boston_industrial_solutions();
+	}
+}
+
+add_action( 'plugins_loaded', 'boston_plugins_loaded_callback' );
