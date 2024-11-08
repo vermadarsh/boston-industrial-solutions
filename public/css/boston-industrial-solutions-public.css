@@ -26,4 +26,24 @@ header.site-header,.page-header{display:none;}
 	100%{transform:translateX(0)}
 }
 
+.featuredapp .elementor-icon-box-content p.elementor-icon-box-description{position: relative;}
+
+.featuredapp .elementor-icon-box-content p.elementor-icon-box-description:after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    transform: scale(1.1);
+    position: absolute;
+    right: 0;
+    background: url('wp-content/uploads/2024/11/zh-newhome-sprite.png'); left top no-repeat;
+    background-size: 500px auto;
+    background-position: -126px -76px;
+    top: calc(50% - 10px);
+    transition: all .5s ease;
+}
+
+
+
+
+
 /* home */
