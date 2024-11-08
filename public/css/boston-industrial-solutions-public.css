@@ -35,7 +35,7 @@ header.site-header,.page-header{display:none;}
     transform: scale(1.1);
     position: absolute;
     right: 0;
-    background: url('/wp-content/uploads/2024/11/zh-newhome-sprite.png'); left top no-repeat;
+    background: url('wp-content/uploads/2024/11/zh-newhome-sprite.png'); left top no-repeat;
     background-size: 500px auto;
     background-position: -126px -76px;
     top: calc(50% - 10px);
