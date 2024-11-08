@@ -27,7 +27,7 @@ header.site-header,.page-header{display:none;}
 }
 .featuredapp .elementor-icon-box-content p.elementor-icon-box-description,
 .explorer .elementor-button{position:relative;}
-.featuredapp .elementor-icon-box-content p.elementor-icon-box-description:after{content:"";width:13px;height:13px;transform:scale(1.1);position:absolute;right:0;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-size:500px auto;background-position:-126px -76px;top:calc(50% - 10px);transition:all .5s ease;}
+.featuredapp .elementor-icon-box-content p.elementor-icon-box-description:after{content:"";width:13px;height:13px;transform:scale(1.1);position:absolute;right:-20px;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-size:500px auto;background-position:-126px -76px;top:calc(50% - 10px);transition:all .5s ease;}
 
 .explorer .elementor-button:after{content:"";width:13px;height:13px;transform:scale(1.1);position:absolute;right:0;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-size:500px auto;background-position:-126px -76px;top:26px;transition:all .5s ease;}
 
@@ -38,4 +38,6 @@ header.site-header,.page-header{display:none;}
 .quteround{border-radius:50%;width:42px;height:42px;background-color:#000;display:inline-flex;align-items:center;justify-content:center;margin-bottom:10px;top:0px;position:relative;}
 .quteround:before{content:'';width:20px;height:14px;display:block;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-position:-20px -27px;background-size:500px auto;}
 
+.brand h3{position:relative;}
+.brand h3:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px auto 0;}
 /* home */
