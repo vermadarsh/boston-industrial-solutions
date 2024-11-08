@@ -9,6 +9,6 @@ header.site-header, .page-header{display: none;}
 
 
 /* home */
-onetitle h1{position:relative;}
-onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px auto 0;}
+.onetitle h1{position:relative;}
+.onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}
 /* home */
