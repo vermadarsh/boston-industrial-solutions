@@ -42,8 +42,11 @@ header.site-header,.page-header{display:none;}
     transition: all .5s ease;
 }
 
+.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after {
+    background-position: -107px -76px;
+}
 
-
-
-
+.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after {
+    transform: translateX(5px);
+}
 /* home */
