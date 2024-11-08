@@ -6,3 +6,9 @@
 body{margin:0;padding:0;margin:0;display:flex;min-height:100vh;flex-direction:column;}
 main{display:block;flex:1 0 auto;}
 header.site-header, .page-header{display: none;} 
+
+
+/* home */
+onetitle h1{position:relative;}
+onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px auto 0;}
+/* home */
