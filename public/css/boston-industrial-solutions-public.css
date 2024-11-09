@@ -54,4 +54,20 @@ header.site-header,.page-header{display:none;}
     background-size: 465px auto;
     background-position: -404px -10px;
 }
+
+.madindia{position: relative;}
+.madindia:after {
+    background-image: url(/wp-content/uploads/2024/11/made-ind-bg.png);
+    width: 54%;
+    opacity: .6;
+    background-size: 100%;
+    right: 0;
+            height: 100%;
+        position: absolute;
+        max-width: 100%;
+        top: 0;
+    background-position: right bottom;
+    margin: 0 auto;
+    display: block;
+}
 /* home */
