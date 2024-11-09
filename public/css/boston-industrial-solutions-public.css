@@ -25,51 +25,20 @@ header.site-header,.page-header{display:none;}
 	90%{transform:translateX(1px)}
 	100%{transform:translateX(0)}
 }
-.featuredapp .elementor-icon-box-content p.elementor-icon-box-description,
-.explorer .elementor-button{position:relative;}
+.featuredapp .elementor-icon-box-content p.elementor-icon-box-description,.explorer .elementor-button{position:relative;}
 .featuredapp .elementor-icon-box-content p.elementor-icon-box-description:after{content:"";width:13px;height:13px;transform:scale(1.1);position:absolute;right:-20px;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-size:500px auto;background-position:-126px -76px;top:calc(50% - 10px);transition:all .5s ease;}
-
 .explorer .elementor-button:after{content:"";width:13px;height:13px;transform:scale(1.1);position:absolute;right:0;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-size:500px auto;background-position:-126px -76px;top:26px;transition:all .5s ease;}
-
-.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after,
-.explorer .elementor-button:hover:after{background-position:-107px -76px;}
-.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after,
-.explorer .elementor-button:hover:after{transform:translateX(5px);}
+.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after,.explorer .elementor-button:hover:after{background-position:-107px -76px;}
+.featuredapp .elementor-icon-box-content:hover p.elementor-icon-box-description:after,.explorer .elementor-button:hover:after{transform:translateX(5px);}
 .quteround{border-radius:50%;width:42px;height:42px;background-color:#000;display:inline-flex;align-items:center;justify-content:center;margin-bottom:10px;top:0px;position:relative;}
 .quteround:before{content:'';width:20px;height:14px;display:block;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png');left top no-repeat;background-position:-20px -27px;background-size:500px auto;}
-
 .brand h3{position:relative;}
 .brand h3:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px auto 0;}
+.privacyicon{position:relative;}
+.privacyicon::before{content:'';width:59px;height:70px;margin:0 auto 8px;display:block;background:url('/wp-content/uploads/2024/11/zh-newhome-sprite.png') left top no-repeat;background-size:465px auto;background-position:-404px -10px;}
+.madindia{position:relative;}
+.madindia:after{content:"";background-repeat:no-repeat;background-image:url(/wp-content/uploads/2024/11/made-ind-bg.png);width:54%;opacity:.6;background-size:100%;right:0;height:100%;position:absolute;max-width:100%;top:0;background-position:right bottom;margin:0 auto;display:block;}
+.madindia .elementor-counter-number-wrapper{width:145px;flex:0 0 145px;}
+.madindia .elementor-counter-title{margin-left:20px;padding-bottom:10px;border-bottom:1px solid #3b8ecc;width:94px;flex:0 0 94px;}
 
-
-
-.privacyicon{position: relative;}
-.privacyicon::before {
-    content: '';
-    width: 59px;
-    height: 70px;
-    margin: 0 auto 8px;
-    display: block;
-    background: url('/wp-content/uploads/2024/11/zh-newhome-sprite.png') left top no-repeat;
-    background-size: 465px auto;
-    background-position: -404px -10px;
-}
-
-.madindia{position: relative;}
-.madindia:after {
-	content: "";
-	    background-repeat: no-repeat;
-    background-image: url(/wp-content/uploads/2024/11/made-ind-bg.png);
-    width: 54%;
-    opacity: .6;
-    background-size: 100%;
-    right: 0;
-            height: 100%;
-        position: absolute;
-        max-width: 100%;
-        top: 0;
-    background-position: right bottom;
-    margin: 0 auto;
-    display: block;
-}
 /* home */
