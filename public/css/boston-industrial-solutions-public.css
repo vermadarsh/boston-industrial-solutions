@@ -40,5 +40,14 @@ header.site-header,.page-header{display:none;}
 .madindia:after{content:"";background-repeat:no-repeat;background-image:url(/wp-content/uploads/2024/11/made-ind-bg.png);width:54%;opacity:.6;background-size:100%;right:0;height:100%;position:absolute;max-width:100%;top:0;background-position:right bottom;margin:0 auto;display:block;}
 .madindia .elementor-counter-number-wrapper{width:145px;flex:0 0 145px;}
 .madindia .elementor-counter-title{margin-left:20px !important;padding-bottom:10px !important;border-bottom:1px solid #3b8ecc !important;width:94px !important;flex:0 0 94px !important;}
-
+.fobrsicon{position: relative;}
+.fobrsicon::before {
+    content: '';
+    background: url('/wp-content/uploads/2024/11/zh-newhome-sprite.png') no-repeat;
+    display: block;
+    width: 80px;
+    height: 63px;
+    background-size: 500px auto;
+    background-position: -110px -104px;
+}
 /* home */
