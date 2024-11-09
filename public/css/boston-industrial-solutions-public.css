@@ -53,8 +53,6 @@ header.site-header,.page-header{display:none;}
 /* home */
 
 
-
-
 header .bottom-header .cover .right-nav-menu .nav-menu {
     margin-left: auto;
     max-width: 1110px;
@@ -273,3 +271,14 @@ header .bottom-header .cover .right-nav-menu .nav-menu ul li ul.menu li:nth-chil
     .activemenu .megamenulist ul.mega-sub-menu li.widget_media_image {width: 100% !important;max-width: 150px !important;}
 }
 
+
+.boston-sitemap .page-header {
+    display: none;
+}
+.breadcrumbSec .breadcrumb-block {
+    margin-top: 15px;
+}
+.postid-14031 .page-header,
+.postid-14034 .page-header{
+    display: none;
+}
