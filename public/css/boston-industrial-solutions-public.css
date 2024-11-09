@@ -53,7 +53,7 @@ header.site-header,.page-header{display:none;}
 /* home */
 
 
-header .bottom-header .cover .right-nav-menu .nav-menu {
+header #mega-menu-wrap-menu-1 {
     margin-left: auto;
     max-width: 1110px;
     margin: 0 auto;
@@ -77,7 +77,7 @@ header .bottom-header .cover .right-nav-menu .nav-menu {
 #mega-menu-wrap-menu-1{
 position: static;
 }
-header .bottom-header .cover .right-nav-menu .nav-menu ul {
+header #mega-menu-wrap-menu-1 ul {
     display: flex;
     flex-wrap: wrap;
 }
@@ -110,7 +110,7 @@ header .bottom-header .cover .right-nav-menu .nav-menu ul {
   font-weight: 500;
 }
 
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul li a {
+header #mega-menu-wrap-menu-1 ul li ul li a {
     font-family: "Poppins", Sans-serif;
     text-transform: capitalize;
     color: #111;
@@ -120,17 +120,17 @@ header .bottom-header .cover .right-nav-menu .nav-menu ul li ul li a {
     font-weight: 400;
     display: flex;
 }
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul {
+header #mega-menu-wrap-menu-1 ul li ul {
     flex-wrap: wrap;
 }
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul li {
+header #mega-menu-wrap-menu-1 ul li ul li {
     display: block;
     width: 100%;
     padding: 0px;
 }
-header .bottom-header .cover .right-nav-menu .nav-menu ul li:hover{background:none !important;}
+header #mega-menu-wrap-menu-1 ul li:hover{background:none !important;}
 
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul li a:hover{color:#2b78e4;}
+header #mega-menu-wrap-menu-1 ul li ul li a:hover{color:#2b78e4;}
 #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title {
     color: #222222;
     font-size: 16px;
@@ -144,14 +144,14 @@ header .bottom-header .cover .right-nav-menu .nav-menu ul li ul li a:hover{color
     margin-bottom: 0px;
 }
 
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul.menu li:nth-child(1) a {
+header #mega-menu-wrap-menu-1 ul li ul.menu li:nth-child(1) a {
      color: #222222;
     font-size: 16px;
     line-height: 24px;
     font-weight: 600;
 }
 
-header .bottom-header .cover .right-nav-menu .nav-menu ul li ul.menu li:nth-child(1) a:hover {
+header #mega-menu-wrap-menu-1 ul li ul.menu li:nth-child(1) a:hover {
      color: #2b78e4;
 }
 
@@ -240,11 +240,11 @@ header .bottom-header .cover .right-nav-menu .nav-menu ul li ul.menu li:nth-chil
 }
 
 @media (max-width: 1024px) {
-    header .bottom-header .cover .right-nav-menu .nav-menu ul li:first-child {
+    header #mega-menu-wrap-menu-1 ul li:first-child {
         padding-left: 0px !important;
     }
-    header .bottom-header .cover .right-nav-menu .nav-menu ul li:first-child:before,
-    header .bottom-header .cover .right-nav-menu .nav-menu ul li:nth-child(2):before{display:none;}
+    header #mega-menu-wrap-menu-1 ul li:first-child:before,
+    header #mega-menu-wrap-menu-1 ul li:nth-child(2):before{display:none;}
     #mega-menu-wrap-menu-1 .mega-menu-toggle {display: none;}
     header .bottom-header .cover .right-nav-menu.activemenu ul#mega-menu-menu-1 {display: block !important;}
     body main.site-main {padding-top: 75px !important;}
