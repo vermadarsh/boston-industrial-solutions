@@ -40,4 +40,18 @@ header.site-header,.page-header{display:none;}
 
 .brand h3{position:relative;}
 .brand h3:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px auto 0;}
+
+
+
+.privacyicon{position: relative;}
+.privacyicon::before {
+    content: '';
+    width: 59px;
+    height: 70px;
+    margin: 0 auto 8px;
+    display: block;
+    background: url('/wp-content/uploads/2024/11/zh-newhome-sprite.png') left top no-repeat;
+    background-size: 465px auto;
+    background-position: -404px -10px;
+}
 /* home */
