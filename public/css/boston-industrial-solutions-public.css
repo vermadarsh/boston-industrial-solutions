@@ -96,3 +96,33 @@ header #mega-menu-wrap-menu-1 ul li ul.menu li:nth-child(1) a:hover{color:#2b78e
 .boston-sitemap .page-header{display:none;}
 .breadcrumbSec .breadcrumb-block{margin-top:15px;}
 .postid-14031 .page-header,.postid-14034 .page-header{display:none;}
+
+
+header #mega-menu-wrap-menu-1 ul li ul li a {
+    font-family: "Open Sans", Sans-serif;
+    text-transform: capitalize;
+    color: #111;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    display: flex;
+}
+
+
+.subscribeform .wpforms-field-row.wpforms-field-medium,
+.subscribeform div.wpforms-container-full input[type=email], 
+.subscribeform div.wpforms-container-full input[type=number] {
+    width: 100%;
+    max-width: 100%;
+}
+.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-first.wpforms-one-half {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-one-half {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
