@@ -114,7 +114,7 @@ header #mega-menu-wrap-menu-1 ul li ul li a {
 .subscribeform div.wpforms-container-full input[type=email], 
 .subscribeform div.wpforms-container-full input[type=number] {
     width: 100%;
-    max-width: 100%;
+    max-width: 100% !important
 }
 .subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-first.wpforms-one-half {
     width: 100%;
@@ -125,4 +125,7 @@ header #mega-menu-wrap-menu-1 ul li ul li a {
     padding: 0;
     width: 100%;
     margin-bottom: 10px;
+}
+.wpforms-container.subscribeform  input.wpforms-field-medium {
+    max-width: 100%;
 }
