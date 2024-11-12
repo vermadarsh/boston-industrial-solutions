@@ -154,3 +154,7 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,
     padding: 0;
     list-style: none;
 }
+
+.featuredapp.e-flex.e-con.e-child {
+    margin: 0px 0 180px;
+}
