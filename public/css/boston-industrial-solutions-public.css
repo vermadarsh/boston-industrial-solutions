@@ -129,3 +129,18 @@ header #mega-menu-wrap-menu-1 ul li ul li a {
 .wpforms-container.subscribeform  input.wpforms-field-medium {
     max-width: 100%;
 }
+
+
+.subscribeform.wpforms-container-full:not(:empty) {
+    margin: 0;
+}
+.subscribeform.wpforms-container .wpforms-field {
+    padding: 0;
+}
+div.wpforms-container-full.subscribeform .wpforms-field-label, 
+.wp-core-ui div.wpforms-container-full.subscribeform .wpforms-field-label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
