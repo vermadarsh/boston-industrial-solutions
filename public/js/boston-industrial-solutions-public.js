@@ -50,4 +50,19 @@ jQuery(window).scroll(function(){
 });
 }
 
+jQuery(".headerserchicon").on("click", function() 
+{
+  jQuery('.newtogglesearchbox').addClass("show");
+});
+
+jQuery(".header_search_close_icon").on("click", function() 
+{
+  jQuery('.newtogglesearchbox').removeClass("show");
+});
+
+jQuery(".headerhelp").on("click", function() 
+{
+  jQuery('.togglephone').slideToggle();
+});
+
 })( jQuery );
