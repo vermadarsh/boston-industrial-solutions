@@ -135,7 +135,7 @@ header #mega-menu-wrap-menu-1 ul li ul li a {
     margin: 0;
 }
 .subscribeform.wpforms-container .wpforms-field {
-    padding: 0;
+    padding: 0 0 15px;
 }
 div.wpforms-container-full.subscribeform .wpforms-field-label, 
 .wp-core-ui div.wpforms-container-full.subscribeform .wpforms-field-label {
