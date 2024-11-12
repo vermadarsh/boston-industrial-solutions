@@ -144,3 +144,8 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,
     font-weight: 500;
     color: #000;
 }
+
+.featureproducts .elementor-image-box-content ul {
+    padding: 0;
+    list-style: none;
+}
