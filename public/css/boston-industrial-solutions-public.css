@@ -158,3 +158,29 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,
 .featuredapp.e-flex.e-con.e-child {
     margin: 0px 0 180px;
 }
+
+
+.rightnew ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.rightnew ul li.bc-mini-cart {
+    position: relative;
+}
+
+.rightnew a {
+    color: #222;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.rightnew a i {
+    color: #222;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Font Awesome 5 Pro";
+}
