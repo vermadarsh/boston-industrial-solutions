@@ -30,12 +30,6 @@
 	 */
 
 
-	
-document.getElementById('menu-icon').addEventListener('click', function(e) {
-    document.querySelector('.right-nav-menu').classList.toggle('activemenu');
-});
-
-
 if (jQuery(window).width() > 1024) {
 jQuery(window).scroll(function(){
   var sticky = jQuery('.sticky-header'),
