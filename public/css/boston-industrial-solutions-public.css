@@ -126,19 +126,26 @@ footer a {
     color: #007BFF;
 }
 
+.featureproducts ul {
+    padding: 0;
+    list-style: none;
+    margin: 10px 0 0;
+}
 
 .featureproducts ul li {
-	padding-left: 1.5em;
-	margin-bottom: 0.5em;
+	padding-left: 22px;
+    margin-bottom: 0.5em;
+    position: relative;
 }
 
 .featureproducts ul li::before {
 	content: "\f058";
-	position: absolute;
-	left: 0;
-	top: 6px;
-	width: 1em;
-	height: 1em;
-	font-family:"Font Awesome 5 Pro";
-    font-weight: 400;	
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    font-size: 14px;
+    transform: translateY(-50%);
+        color: #007BFF;
 }
