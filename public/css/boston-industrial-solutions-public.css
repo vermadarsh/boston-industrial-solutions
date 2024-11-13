@@ -2,20 +2,14 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
-
 @import url('https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css');
-
-
 body{margin:0;padding:0;margin:0;display:flex;min-height:100vh;flex-direction:column;}
 main{display:block;flex:1 0 auto;}
 header.site-header,.page-header{display:none;}
+a{color: #007BFF;}
 
 /* home */
-.sticky-header.header-fixed {
-    position: fixed;
-    z-index: 9;
-    background: #fff;
-}
+.sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
 .onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}
 .txt-highlight .highlight{border-bottom:1px dashed rgba(0,0,0,0.5);border-bottom-color:rgba(0,0,0,0.5);cursor:pointer;transition:color .4s ease,border-color .4s ease;color:#333;}
@@ -105,127 +99,22 @@ header #mega-menu-wrap-menu-1 ul li ul.menu li:nth-child(1) a:hover{color:#2b78e
 .boston-sitemap .page-header{display:none;}
 .breadcrumbSec .breadcrumb-block{margin-top:15px;}
 .postid-14031 .page-header,.postid-14034 .page-header{display:none;}
-
-
-header #mega-menu-wrap-menu-1 ul li ul li a {
-    font-family: "Open Sans", Sans-serif;
-    text-transform: capitalize;
-    color: #111;
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 25px;
-    font-weight: 400;
-    display: flex;
-}
-
-
-.subscribeform .wpforms-field-row.wpforms-field-medium,
-.subscribeform div.wpforms-container-full input[type=email], 
-.subscribeform div.wpforms-container-full input[type=number] {
-    width: 100%;
-    max-width: 100% !important
-}
-.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-first.wpforms-one-half {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 10px;
-}
-.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-one-half {
-    padding: 0;
-    width: 100%;
-    margin-bottom: 10px;
-}
-.wpforms-container.subscribeform  input.wpforms-field-medium {
-    max-width: 100%;
-}
-
-
-.subscribeform.wpforms-container-full:not(:empty) {
-    margin: 0;
-}
-.subscribeform.wpforms-container .wpforms-field {
-    padding: 0 0 15px;
-}
-div.wpforms-container-full.subscribeform .wpforms-field-label, 
-.wp-core-ui div.wpforms-container-full.subscribeform .wpforms-field-label {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: #000;
-}
-
-.featureproducts .elementor-image-box-content ul {
-    padding: 0;
-    list-style: none;
-}
-
-.featuredapp.e-flex.e-con.e-child {
-    margin: 0px 0 180px;
-}
-
-
-.rightnew ul {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-}
-
-.rightnew ul li.bc-mini-cart {
-    position: relative;
-}
-
-.rightnew a {
-    color: #222;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
-.rightnew a i {
-    color: #222;
-    font-size: 23px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Font Awesome 5 Pro";
-}
-
-.togglephone {
-    display: none;
-    position: absolute;
-    width: 180px;
-    left: 0;
-    background: #FBFBFB;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0px 10px 30px 4px rgb(0 0 0 / 6%);
-    top: 40px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    border: solid 2px #F1F3F4;
-    z-index: 99;
-}
-
-.rightnew ul .togglephone ul {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    padding-left: 0;
-}
-
-.rightnew ul .togglephone ul li {
-    display: flex;
-    max-width: 100%;
-    width: 100%;
-    flex: 0 0 150px;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-.rightnew ul .togglephone ul li a {
-    display: flex;
-}
-
-.rightnew ul .togglephone ul li svg {
-    margin-right: 15px;
-    width: 20px;
-}
+header #mega-menu-wrap-menu-1 ul li ul li a{font-family:"Open Sans",Sans-serif;text-transform:capitalize;color:#111;letter-spacing:0.03em;font-size:14px;line-height:25px;font-weight:400;display:flex;}
+.subscribeform .wpforms-field-row.wpforms-field-medium,.subscribeform div.wpforms-container-full input[type=email],.subscribeform div.wpforms-container-full input[type=number]{width:100%;max-width:100%!important}
+.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-first.wpforms-one-half{width:100%;padding:0;margin-bottom:10px;}
+.subscribeform .wpforms-field-row.wpforms-field-medium .wpforms-field-row-block.wpforms-one-half{padding:0;width:100%;margin-bottom:10px;}
+.wpforms-container.subscribeform  input.wpforms-field-medium{max-width:100%;}
+.subscribeform.wpforms-container-full:not(:empty){margin:0;}
+.subscribeform.wpforms-container .wpforms-field{padding:0 0 15px;}
+div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wpforms-container-full.subscribeform .wpforms-field-label{font-family:"Open Sans",sans-serif;font-size:16px;font-weight:500;color:#000;}
+.featureproducts .elementor-image-box-content ul{padding:0;list-style:none;}
+.featuredapp.e-flex.e-con.e-child{margin:0px 0 180px;}
+.rightnew ul{display:flex;gap:15px;list-style:none;}
+.rightnew ul li.bc-mini-cart{position:relative;}
+.rightnew a{color:#222;font-size:16px;line-height:24px;font-weight:400;}
+.rightnew a i{color:#222;font-size:23px;font-weight:400;font-style:normal;font-family:"Font Awesome 5 Pro";}
+.togglephone{display:none;position:absolute;width:180px;left:0;background:#FBFBFB;padding:15px;border-radius:5px;box-shadow:0px 10px 30px 4px rgb(0 0 0 / 6%);top:40px;-webkit-transform:translateX(-50%);transform:translateX(-50%);border:solid 2px #F1F3F4;z-index:99;}
+.rightnew ul .togglephone ul{display:flex;flex-wrap:wrap;width:auto;padding-left:0;}
+.rightnew ul .togglephone ul li{display:flex;max-width:100%;width:100%;flex:0 0 150px;align-items:flex-start;justify-content:space-evenly;}
+.rightnew ul .togglephone ul li a{display:flex;}
+.rightnew ul .togglephone ul li svg{margin-right:15px;width:20px;}
