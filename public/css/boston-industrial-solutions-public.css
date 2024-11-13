@@ -8,6 +8,8 @@ main{display:block;flex:1 0 auto;}
 header.site-header,.page-header{display:none;}
 a{color: #007BFF;}
 
+
+
 /* home */
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
@@ -118,3 +120,5 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wp
 .rightnew ul .togglephone ul li{display:flex;max-width:100%;width:100%;flex:0 0 150px;align-items:flex-start;justify-content:space-evenly;}
 .rightnew ul .togglephone ul li a{display:flex;}
 .rightnew ul .togglephone ul li svg{margin-right:15px;width:20px;}
+
+.featureproducts a{color:#007BFF;}
