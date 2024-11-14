@@ -10,6 +10,7 @@ a{color: #007BFF;}
 
 
 
+
 /* home */
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
@@ -123,6 +124,10 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wp
 
 .featureproducts a{color:#007BFF;}
 footer a {
+    color: #111111;
+}
+
+footer a:hover {
     color: #007BFF;
 }
 
