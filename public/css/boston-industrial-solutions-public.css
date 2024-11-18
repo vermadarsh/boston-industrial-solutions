@@ -166,5 +166,10 @@ div.wpforms-container-full.subscribeform button.wpforms-submit {
     border-style: solid !important;
     border-width: 1px 1px 1px 1px !important;
     border-radius: 2px 2px 2px 2px !important;
-    padding: 15px 30px 15px 25px !important;
+    padding: 15px 25px 15px 25px !important;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
