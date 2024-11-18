@@ -173,3 +173,8 @@ div.wpforms-container-full.subscribeform button.wpforms-submit {
     align-content: center;
     justify-content: center;
 }
+div.wpforms-container-full.subscribeform button.wpforms-submit:hover{
+background-color: #032D60;
+    color: #FFFFFF;
+    border-color: #032D60;
+}
