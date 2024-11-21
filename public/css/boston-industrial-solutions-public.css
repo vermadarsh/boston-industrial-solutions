@@ -256,7 +256,10 @@ div#login-unauth-content {
     box-shadow: 0 2px 8px -2px hsla(0,0%,9%,.08),0 8px 12px -2px hsla(0,0%,9%,.16);
 }
 
-
+.rightnew ul li.bc-mini-cart .login img.icon.login {
+    width: 35px;
+    height: 35px;
+}
 div#login-unauth-content h3 {
     font-size: 20px;
     color: rgb(3, 45, 96);
