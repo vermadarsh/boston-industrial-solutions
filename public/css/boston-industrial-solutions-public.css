@@ -167,7 +167,9 @@ span#region-selector-content {
     flex-wrap: nowrap;
     gap: 32px;
 }
-
+li.bc-mini-cart.golbelanguge {
+    cursor: pointer;
+}
 .slds-col {
     display: flex;
     flex-direction: row;
