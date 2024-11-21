@@ -7,29 +7,11 @@ body{margin:0;padding:0;margin:0;display:flex;min-height:100vh;flex-direction:co
 main{display:block;flex:1 0 auto;}
 header.site-header,.page-header{display:none;}
 a{color: #007BFF;}
-
-
-
-
 /* home */
-
-.topbluebar .e-con-inner {
-    padding: 0 !important;
-}
-
-.topbluebar .e-con-inner .elementor-widget-text-editor p {
-    margin: 0;
-}
-
-.topbluebar .e-con-inner .elementor-widget-text-editor p a {
-    color: #fff;
-    text-decoration: underline;
-}
-
-.topbluebar .e-con-inner .elementor-widget-text-editor p a:hover {
-    text-decoration: none;
-}
-
+.topbluebar .e-con-inner{padding:0!important;}
+.topbluebar .e-con-inner .elementor-widget-text-editor p{margin:0;}
+.topbluebar .e-con-inner .elementor-widget-text-editor p a{color:#fff;text-decoration:underline;}
+.topbluebar .e-con-inner .elementor-widget-text-editor p a:hover{text-decoration:none;}
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
 .onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}
@@ -139,70 +121,14 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wp
 .rightnew ul .togglephone ul li{display:flex;max-width:100%;width:100%;flex:0 0 150px;align-items:flex-start;justify-content:space-evenly;}
 .rightnew ul .togglephone ul li a{display:flex;}
 .rightnew ul .togglephone ul li svg{margin-right:15px;width:20px;}
-
 .featureproducts a{color:#007BFF;}
-footer a {
-    color: #111111;
-}
-
-footer a:hover {
-    color: #007BFF;
-}
-
-.featureproducts ul {
-    padding: 0;
-    list-style: none;
-    margin: 10px 0 0;
-}
-
-.featureproducts ul li {
-	padding-left: 22px;
-    margin-bottom: 0.5em;
-    position: relative;
-}
-
-.featureproducts ul li::before {
-	content: "\f058";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    font-family: "Font Awesome 5 Pro";
-    font-weight: 400;
-    font-size: 14px;
-    transform: translateY(-50%);
-        color: #007BFF;
-}
-
-
-div.wpforms-container-full.subscribeform button.wpforms-submit {
-    background: #0176D3;
-    font-family: "Poppins", Sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    text-transform: uppercase;
-    letter-spacing: 0.2px !important;
-    border-style: solid !important;
-    border-width: 1px 1px 1px 1px !important;
-    border-radius: 2px 2px 2px 2px !important;
-    padding: 15px 25px 15px 25px !important;
-    height: auto;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-div.wpforms-container-full.subscribeform button.wpforms-submit:hover{
-background-color: #032D60;
-    color: #FFFFFF;
-    border-color: #032D60;
-}
-
-.rightnew ul li.bc-mini-cart img.icon {
-    width: 22px;
-    height: 22px;
-    position: relative;
-    top: -1px;
-}
-span#region-selector-content {
-    display: none;
-}
+footer a{color:#111111;}
+footer a:hover{color:#007BFF;}
+.featureproducts ul{padding:0;list-style:none;margin:10px 0 0;}
+.featureproducts ul li{padding-left:22px;margin-bottom:0.5em;position:relative;}
+.featureproducts ul li::before{content:"\f058";position:absolute;left:0;top:50%;font-family:"Font Awesome 5 Pro";font-weight:400;font-size:14px;transform:translateY(-50%);color:#007BFF;}
+div.wpforms-container-full.subscribeform button.wpforms-submit{background:#0176D3;font-family:"Poppins",Sans-serif!important;font-size:16px!important;font-weight:500!important;text-transform:uppercase;letter-spacing:0.2px!important;border-style:solid!important;border-width:1px 1px 1px 1px!important;border-radius:2px 2px 2px 2px!important;padding:15px 25px 15px 25px!important;height:auto;display:flex;align-items:center;align-content:center;justify-content:center;}
+div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-color:#032D60;color:#FFFFFF;border-color:#032D60;}
+.rightnew ul li.bc-mini-cart img.icon{width:22px;height:22px;position:relative;top:-1px;}
+.rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
+span#region-selector-content{display:none;}
