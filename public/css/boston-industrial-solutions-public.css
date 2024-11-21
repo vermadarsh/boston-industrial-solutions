@@ -131,7 +131,7 @@ div.wpforms-container-full.subscribeform button.wpforms-submit{background:#0176D
 div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-color:#032D60;color:#FFFFFF;border-color:#032D60;}
 .rightnew ul li.bc-mini-cart img.icon{width:24px;height:24px;position:relative;top:1px;}
 .rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
-span#region-selector-content{display:none;}
+
 .rightnew ul li.bc-mini-cart .contactusheader p {margin: 5px 0 0 0;font-family: "Poppins",Sans-serif;}
 .rightnew ul li.bc-mini-cart .contactusheader {display: flex;flex-wrap: wrap;justify-content: center;max-width: 120px;}
 .rightnew ul li.bc-mini-cart .contactusheader a{text-align:center;display:inline;border-bottom:solid 1px;margin:0 auto;font-family:"Poppins",Sans-serif;}
@@ -148,9 +148,9 @@ span#region-selector-content{display:none;}
 }
 
 
-
+.golbelanguge:hover span#region-selector-content{display: block;}
 span#region-selector-content {
-    display: block;
+    display: none;
     position: absolute;
     z-index: 1;
     width: 800px;
