@@ -196,3 +196,8 @@ background-color: #032D60;
     color: #FFFFFF;
     border-color: #032D60;
 }
+
+
+span#region-selector-content {
+    display: none;
+}
