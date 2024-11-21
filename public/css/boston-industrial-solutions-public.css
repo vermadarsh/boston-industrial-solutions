@@ -14,7 +14,7 @@ a{color: #007BFF;}
 /* home */
 
 .topbluebar .e-con-inner {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .topbluebar .e-con-inner .elementor-widget-text-editor p {
@@ -23,10 +23,11 @@ a{color: #007BFF;}
 
 .topbluebar .e-con-inner .elementor-widget-text-editor p a {
     color: #fff;
+    text-decoration: underline;
 }
 
 .topbluebar .e-con-inner .elementor-widget-text-editor p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
