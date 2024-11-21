@@ -146,3 +146,36 @@ span#region-selector-content{display:none;}
 .rightnew ul li.bc-mini-cart .togglephone ul {
     flex-wrap: wrap;
 }
+
+
+
+span#region-selector-content {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    right: -60px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 16px;
+    max-width: 800px;
+    /* top: 0; */
+    box-shadow: 0 2px 8px -2px hsla(0,0%,9%,.08),0 8px 12px -2px hsla(0,0%,9%,.16);
+}
+.slds-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+
+.slds-col {
+    display: flex;
+    flex-direction: row;
+}
+.slds-col ul.generic-links {
+    flex-wrap: wrap;
+}
+
+.region-group-content {
+    margin-right: 8px;
+}
