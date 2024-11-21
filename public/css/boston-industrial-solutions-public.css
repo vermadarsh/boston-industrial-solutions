@@ -112,7 +112,7 @@ header #mega-menu-wrap-menu-1 ul li ul li a{font-family:"Open Sans",Sans-serif;t
 div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wpforms-container-full.subscribeform .wpforms-field-label{font-family:"Open Sans",sans-serif;font-size:16px;font-weight:500;color:#000;}
 .featureproducts .elementor-image-box-content ul{padding:0;list-style:none;}
 .featuredapp.e-flex.e-con.e-child{margin:0px 0 180px;}
-.rightnew ul{display:flex;gap:15px;list-style:none;}
+.rightnew ul{display:flex;gap:15px;list-style:none;align-items: center;}
 .rightnew ul li.bc-mini-cart{position:relative;}
 .rightnew a{color:#222;font-size:16px;line-height:24px;font-weight:400;}
 .rightnew a i{color:#222;font-size:23px;font-weight:400;font-style:normal;font-family:"Font Awesome 5 Pro";}
@@ -132,3 +132,4 @@ div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-
 .rightnew ul li.bc-mini-cart img.icon{width:22px;height:22px;position:relative;top:-1px;}
 .rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
 span#region-selector-content{display:none;}
+.rightnew ul li.bc-mini-cart .contactusheader p {margin: 0;}
