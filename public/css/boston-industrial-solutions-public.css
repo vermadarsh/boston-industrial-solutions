@@ -143,3 +143,6 @@ span#region-selector-content{display:none;}
 .rightnew a span.cart-count {
     margin-left: 10px;
 }
+.rightnew ul li.bc-mini-cart .togglephone ul {
+    flex-wrap: wrap;
+}
