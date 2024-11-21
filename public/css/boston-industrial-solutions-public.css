@@ -114,10 +114,10 @@ div.wpforms-container-full.subscribeform .wpforms-field-label,.wp-core-ui div.wp
 .featuredapp.e-flex.e-con.e-child{margin:0px 0 180px;}
 .rightnew ul{display:flex;gap:15px;list-style:none;align-items: center;}
 .rightnew ul li.bc-mini-cart{position:relative;}
-.rightnew a{color:#222;font-size:16px;line-height:24px;font-weight:400;}
+.rightnew a {color: #222;font-size: 16px;line-height: 24px;font-weight: 400;display: flex;}
 .rightnew a i{color:#222;font-size:23px;font-weight:400;font-style:normal;font-family:"Font Awesome 5 Pro";}
 .togglephone{display:none;position:absolute;width:180px;left:0;background:#FBFBFB;padding:15px;border-radius:5px;box-shadow:0px 10px 30px 4px rgb(0 0 0 / 6%);top:40px;-webkit-transform:translateX(-50%);transform:translateX(-50%);border:solid 2px #F1F3F4;z-index:99;}
-.rightnew ul {display: flex;gap: 10px;list-style: none;align-items: center;padding: 0;}
+.rightnew ul {display: flex;gap: 15px;list-style: none;align-items: center;padding: 0;}
 .rightnew ul .togglephone ul li{display:flex;max-width:100%;width:100%;flex:0 0 150px;align-items:flex-start;justify-content:space-evenly;}
 .rightnew ul .togglephone ul li a{display:flex;}
 .rightnew ul .togglephone ul li svg{margin-right:15px;width:20px;}
@@ -133,10 +133,13 @@ div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-
 .rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
 span#region-selector-content{display:none;}
 .rightnew ul li.bc-mini-cart .contactusheader p {margin: 5px 0 0 0;font-family: "Poppins",Sans-serif;}
-.rightnew ul li.bc-mini-cart .contactusheader{display:flex;flex-wrap:wrap;justify-content:center;}
+.rightnew ul li.bc-mini-cart .contactusheader {display: flex;flex-wrap: wrap;justify-content: center;max-width: 120px;}
 .rightnew ul li.bc-mini-cart .contactusheader a{text-align:center;display:inline;border-bottom:solid 1px;margin:0 auto;font-family:"Poppins",Sans-serif;}
 .rightnew ul li.bc-mini-cart .contactusheader a:hover{color:#0176d3;}
 
 #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:focus {
     color: #0176d3 !important;
+}
+.rightnew a span.cart-count {
+    margin-left: 10px;
 }
