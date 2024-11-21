@@ -12,6 +12,23 @@ a{color: #007BFF;}
 
 
 /* home */
+
+.topbluebar .e-con-inner {
+    padding: 0;
+}
+
+.topbluebar .e-con-inner .elementor-widget-text-editor p {
+    margin: 0;
+}
+
+.topbluebar .e-con-inner .elementor-widget-text-editor p a {
+    color: #fff;
+}
+
+.topbluebar .e-con-inner .elementor-widget-text-editor p a:hover {
+    text-decoration: underline;
+}
+
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
 .onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}
