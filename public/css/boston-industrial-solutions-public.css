@@ -179,3 +179,46 @@ span#region-selector-content {
 .region-group-content {
     margin-right: 8px;
 }
+
+.seperator-vert {
+    position: relative;
+    top: 12px;
+    height: 95%;
+    width: 1px;
+    background-color: rgb(229, 229, 229);
+    margin-left: 32px;
+}
+
+.slds-col:last-child .seperator-vert {
+    display: none;
+}
+
+.region-selector_columnsWrapper h3 {
+    margin-bottom: 8px;
+    font-synthesis: style small-caps;
+    font-family:"Poppins",Sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #032d60;
+}
+
+.region-selector_columnsWrapper h2.h4 {
+    color: rgb(68, 68, 68);
+    margin: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+     font-family:"Poppins",Sans-serif;
+}
+
+.region-selector_columnsWrapper .li-wrap a {
+    color: rgb(3, 45, 96);
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-family:"Poppins",Sans-serif;
+}
