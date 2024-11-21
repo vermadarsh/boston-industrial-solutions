@@ -129,7 +129,29 @@ footer a:hover{color:#007BFF;}
 .featureproducts ul li::before{content:"\f058";position:absolute;left:0;top:50%;font-family:"Font Awesome 5 Pro";font-weight:400;font-size:14px;transform:translateY(-50%);color:#007BFF;}
 div.wpforms-container-full.subscribeform button.wpforms-submit{background:#0176D3;font-family:"Poppins",Sans-serif!important;font-size:16px!important;font-weight:500!important;text-transform:uppercase;letter-spacing:0.2px!important;border-style:solid!important;border-width:1px 1px 1px 1px!important;border-radius:2px 2px 2px 2px!important;padding:15px 25px 15px 25px!important;height:auto;display:flex;align-items:center;align-content:center;justify-content:center;}
 div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-color:#032D60;color:#FFFFFF;border-color:#032D60;}
-.rightnew ul li.bc-mini-cart img.icon{width:22px;height:22px;position:relative;top:-1px;}
+.rightnew ul li.bc-mini-cart img.icon{width:24px;height:24px;position:relative;top:1px;}
 .rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
 span#region-selector-content{display:none;}
-.rightnew ul li.bc-mini-cart .contactusheader p {margin: 0;}
+.rightnew ul li.bc-mini-cart .contactusheader p {
+    margin: 5px 0 0 0;
+    font-family: "Poppins",Sans-serif;
+}
+
+
+.rightnew ul li.bc-mini-cart .contactusheader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rightnew ul li.bc-mini-cart .contactusheader a {
+    text-align: center;
+    display: inline;
+    border-bottom: solid 1px;
+    margin: 0 auto;
+    font-family:"Poppins",Sans-serif;
+}
+.rightnew ul li.bc-mini-cart .contactusheader a:hover{color:#0176d3;}
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:focus {
+    color: #0176d3 !important;
+}
