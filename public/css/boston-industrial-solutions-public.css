@@ -396,7 +396,9 @@ li.bc-mini-cart.searchbox:hover span.golbelangugespan {
     z-index: 99;
     right: 40px;
 }
-
+#nopadding .e-con-inner {
+    padding: 0;
+}
 .contactussticky a.elementor-button{
     border-radius: 25px;
     height: 48px;
