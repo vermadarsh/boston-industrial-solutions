@@ -353,7 +353,7 @@ div#login-unauth-content .links p {
     cursor: pointer;
 }
 
-/*li.bc-mini-cart.golbelanguge span.golbelangugespan {
+li.bc-mini-cart.golbelanguge span.golbelangugespan {
     padding: 10px;
     border-radius: 50%;
     display: flex;
@@ -363,4 +363,29 @@ li.bc-mini-cart.golbelanguge:hover span.golbelangugespan {
     background-color: #eaf5fe;
     cursor: pointer;
     
-}*/
+}
+
+
+li.bc-mini-cart.shoppingcart span.shoppingcartspan {
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+li.bc-mini-cart.shoppingcart:hover span.shoppingcartspan {
+    background-color: #eaf5fe;
+    cursor: pointer;
+    
+}
+
+li.bc-mini-cart.searchbox span.golbelangugespan {
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+li.bc-mini-cart.searchbox:hover span.golbelangugespan {
+    background-color: #eaf5fe;
+    cursor: pointer;
+    
+}
