@@ -391,7 +391,7 @@ li.bc-mini-cart.searchbox:hover span.golbelangugespan {
 }
 
 .contactussticky {
-    position: fixed;
+    position: fixed !important;
     bottom: 40px;
     z-index: 99;
     right: 40px;
