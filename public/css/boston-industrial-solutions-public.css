@@ -416,7 +416,7 @@ li.bc-mini-cart.searchbox:hover span.golbelangugespan {
 
 /* menu */
 
-.c360-nav{position:fixed;top:0px;width:100%;background-color:rgb(255,255,255);z-index:20000;}
+.c360-nav{width:100%;background-color:rgb(255,255,255);z-index:20000;}
 span.nav-item-label--l2{display:flex;align-items:center;}
 .active-l1 .icons{left:0px;}
 li.active-l1 .c360-nav__l2-panel-message{width:420px;}
