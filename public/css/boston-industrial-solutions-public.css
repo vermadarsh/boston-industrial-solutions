@@ -418,5 +418,5 @@ li.bc-mini-cart.searchbox:hover span.golbelangugespan {
 .contactformshortcode .wpforms-container.wpforms-container-full.wpforms-render-modern{margin:0;}
 .contactformshortcode div.wpforms-container-full .wpforms-form .wpforms-field{padding:10px 0;clear:both;}
 .contactformshortcode div.wpforms-container-full input,.contactformshortcode div.wpforms-container-full select,.contactformshortcode div.wpforms-container-full textarea{border:1px solid #747474;}
-.contactformshortcode div.wpforms-container-full .wpforms-submit{background-color: #0b5cab;}
+.contactformshortcode div.wpforms-container-full .wpforms-submit{background-color: #0b5cab !important;}
 .contactformshortcode div.wpforms-container-full .wpforms-submit:hover;{background-color: #0b5cab;}
