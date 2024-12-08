@@ -421,3 +421,6 @@ li.bc-mini-cart.searchbox:hover span.golbelangugespan {
 .contactformshortcode div.wpforms-container-full .wpforms-submit{background-color: #0b5cab !important;}
 .contactformshortcode div.wpforms-container-full .wpforms-submit:hover;{background-color: #0b5cab;}
 .contactformshortcode div.wpforms-container-full p a{color:#0b5cab;text-decoration:underline;}
+.brandoverlay:hover{cursor: pointer;}
+.brandoverlay img{transform:scale(0.8);}
+.brandoverlay:hover img{transform:scale(1);}
