@@ -552,7 +552,7 @@ li.active-l1 > div.c360-nav__nav-panel > div.c360-nav__l2-panel-message > div.c3
     width: 340px;
     height: calc(100vh - 105px);
     background: #fff;
-    right: 0;
+    right: -340px;
     z-index: 999;
     padding: 30px;
     overflow: auto;
@@ -560,7 +560,14 @@ li.active-l1 > div.c360-nav__nav-panel > div.c360-nav__l2-panel-message > div.c3
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
+    transition: right 0.3s ease; 
 }
+
+.cartsidebar.open {
+  right: 0; 
+}
+
+
 .cartsidebar .innercartsidebartitle .closesidebar svg line {
     stroke: #242424;
 }
@@ -590,6 +597,18 @@ ul.dropdown-menu.dropdown-menu-mini-cart .widget_shopping_cart_content a.btn.vie
     justify-content: space-between;
     border-radius: 60px;
     width: 150px;
+}
+
+.cartsidebar .innercartsidebartitle h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.cartsidebar .innercartsidebartitle .closesidebar svg {
+    width: 100%;
+    height: 100%;
 }
 
 ul.dropdown-menu.dropdown-menu-mini-cart .widget_shopping_cart_content a.btn.view-all-btn svg {

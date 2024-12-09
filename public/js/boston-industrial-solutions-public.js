@@ -170,5 +170,16 @@ navItemss.forEach((items, index) => {
     }
   });
 });
+
+
+const sidebar = document.querySelector('.cartsidebar'); 
+const openBtn = document.querySelector('.shoppingcart'); 
+const closeBtn = document.querySelector('.closesidebar');
+openBtn.addEventListener('click', () => {
+  sidebar.classList.add('open');
+});
+closeBtn.addEventListener('click', () => {
+  sidebar.classList.remove('open');
+});
 /* menu */
 
