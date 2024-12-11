@@ -132,9 +132,9 @@ div.wpforms-container-full.subscribeform button.wpforms-submit:hover{background-
 .rightnew ul li.bc-mini-cart img.icon{width:24px;height:24px;position:relative;top:1px;}
 .rightnew ul li.bc-mini-cart img.icon.icon-globe-hover{display:none;}
 
-.rightnew ul li.bc-mini-cart .contactusheader p {margin: 5px 0 0 0;font-family: "Poppins",Sans-serif;}
+.rightnew ul li.bc-mini-cart .contactusheader p {margin: 5px 0 0 0;font-family: "Poppins",Sans-serif;font-size:14px;}
 .rightnew ul li.bc-mini-cart .contactusheader {display: flex;flex-wrap: wrap;justify-content: center;max-width: 120px;}
-.rightnew ul li.bc-mini-cart .contactusheader a{text-align:center;display:inline;border-bottom:solid 1px;margin:0 auto;font-family:"Poppins",Sans-serif;}
+.rightnew ul li.bc-mini-cart .contactusheader a{text-align:center;display:inline;border-bottom:solid 1px;margin:0 auto;font-family:"Poppins",Sans-serif;font-size:14px;}
 .rightnew ul li.bc-mini-cart .contactusheader a:hover{color:#0176d3;}
 
 #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:hover, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link:focus {
@@ -519,7 +519,7 @@ li.active-l1 .c360-nav__nav-panel .c360-nav__l2-panel-message.l2-panel-message-h
 .c360-nav__nav-items-list--l1 li .l1-button span.arrow{float:right;}
 .c360-nav__nav-items-list--l1 li .l1-button span{font-size:16px;line-height:28px;}
 .logged-in.admin-bar .c360-nav__nav-panel{visibility:hidden;display:flex;flex-direction:row;left:0px;top:125px;height:calc(100% - 125px);position:fixed;width:auto;transition:none;place-content:flex-end space-between;align-items:stretch;transform:translateX(-100%);background-color:rgb(255,255,255);z-index:401;}
-.c360-nav__nav-panel{visibility:hidden;display:flex;flex-direction:row;left:0px;top:92px;height:calc(100% - 92px);position:fixed;width:auto;transition:none;place-content:flex-end space-between;align-items:stretch;transform:translateX(-100%);background-color:rgb(255,255,255);z-index:401;}
+.c360-nav__nav-panel{visibility:hidden;display:flex;flex-direction:row;left:0px;top:90px;height:calc(100% - 90px);position:fixed;width:auto;transition:none;place-content:flex-end space-between;align-items:stretch;transform:translateX(-100%);background-color:rgb(255,255,255);z-index:401;}
 .c360-nav__nav-items--l2{box-sizing:border-box;margin-left:0px;width:568px;padding-left:128px;display:table-cell;vertical-align:top;overflow-y:auto;overscroll-behavior:contain;}
 .c360-nav__nav-items-list--l1 li.active-l1 .c360-nav__nav-panel{transform:translateX(0px);visibility:visible;display:flex;}
 .c360-nav__nav-panel.animation-panel-transition,.c360-nav__nav-panel .animation-panel-transition{transition:0.35s ease-in-out;}
@@ -537,7 +537,7 @@ span.nav-item-label--l2{display:flex;align-items:center;}
 .nav-item-label--l2-buttonlink{max-width:100%;}
 .nav-item-label--l2{text-align:left;line-height:28px;}
 .l2-button div.icons{margin-top:-2px;margin-bottom:-2px;}
-.c360-nav__nav-items-list--l2 li .l2-button span{float:left;font-size:16px;margin-left:12px;margin-right:20px;color:#747474;font-weight:600;font-family:"Poppins",sans-serif;}
+.c360-nav__nav-items-list--l2 li .l2-button span{float:left;font-size:15px;margin-left:12px;margin-right:20px;color:#193984;font-weight:600;font-family:"Poppins",sans-serif;}
 .c360-nav__nav-items-list--l2 li:hover .l2-button span {color: #014486;}
 .c360-nav__nav-items-list--l2 .icons{height:32px;width:32px;min-width:32px;background:rgb(255,255,255);box-shadow:rgba(24,24,24,0.12) 4px 8px 15px;border-radius:100px;margin-left:0px;margin-right:16px;z-index:2;position:relative;left:-1000px;}
 .active-l1 .icons{left:0px!important;}
@@ -657,5 +657,29 @@ p.woocommerce-mini-cart__buttons.buttons a.button.wc-forward {
     margin: 0 auto!important;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+li.bc-mini-cart.shoppingcart span.shoppingcartspan {
+    background: #0176D3;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+li.bc-mini-cart.shoppingcart span.shoppingcartspan:hover{background-color: #032D60;
+    color: #FFFFFF;
+    border-color: #032D60;}
+
+
+ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1
+{
+    color:#0176d3;
+}
+
+ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1:hover
+{
+    color:#0176d3;
 }
 /* menu */
