@@ -673,12 +673,12 @@ li.bc-mini-cart.shoppingcart span.shoppingcartspan:hover{background-color: #032D
     border-color: #032D60;}
 
 
-ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1
+ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1 .l1-button span
 {
     color:#0176d3;
 }
 
-ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1:hover
+ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c360-nav__nav-item--l1.active-l1:hover .l1-button span
 {
     color:#0176d3;
 }
