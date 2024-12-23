@@ -683,3 +683,21 @@ ul.c360-nav__nav-items-list.c360-nav__nav-items-list--l1 li.c360-nav__nav-item.c
     color:#0176d3;
 }
 /* menu */
+
+
+
+
+
+
+
+
+
+
+
+.lineclampblog .elementor-widget-container p,
+.lineclampblog .elementor-heading-title{
+display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
