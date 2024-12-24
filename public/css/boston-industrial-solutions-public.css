@@ -359,5 +359,23 @@ section.blogsubscribe .bloglistingcontainer ul li:first-child{padding-right:0;}
 .blogsubscribe .bloglistingcontainer ul li .blogautherbox{color:rgb(8,7,7);font-family:"Poppins",Sans-serif;font-size:15px;font-weight:500;letter-spacing:0.8px;line-height:15.96px;margin-bottom:20px;}
 .blogsubscribe .bloglistingcontainer ul li .blogautherbox a{width:auto;padding-left:20px;position:relative;text-decoration:underline;}
 .blogsubscribe .bloglistingcontainer ul li .blogautherbox a:after{content:'.';position:absolute;font-size:31px;left:6px;top:3%;transform:translate(-0%,-50%);}
-
+.bloglistingcontainerleft h3{letter-spacing:-.1px;line-height:24px;color:rgb(3,45,96);font-family:"Poppins",Sans-serif;font-size:20px;font-weight:700;-webkit-font-smoothing:antialiased;margin:0 0 8.6px;}
+.bloglistingcontainerleft p{font-family:"Poppins",Sans-serif;line-height:1.6;color:rgb(24,24,24);letter-spacing:0.0192px;line-height:25.6px;margin:0 0 24px;font-size:16px;}
+.bloglistingcontainer .bloglistingcontainerleft ul{list-style:disc;padding:0 0 0 30px;margin:0 0 30px;display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;row-gap:0px;    /* list-style-position: inside; */list-style-type:disc;}
+.bloglistingcontainer .bloglistingcontainerleft ul li{font-family:"Poppins",Sans-serif;line-height:1.6;color:rgb(24,24,24);letter-spacing:0.0192px;line-height:25.6px;margin:0 0 8px;font-size:16px;width:100%;padding:0;}
+.bloglistingcontainerleft h2{font-family:"Poppins",Sans-serif;color:rgb(3,45,96);font-size:36px;font-weight:700;letter-spacing:-0.06px;line-height:47.88px;}
+section.blogdetails .bloglistingcontainer{display:flex;gap:80px;justify-content:end;}
+section.blogdetails .bloglistingcontainer .bloglistingcontainerleft{max-width:678px;width:100%;}
+.bloglistingcontainerrightsidebar{width:100%;max-width:296px;border:solid 1px red;height:500px;position:sticky;top:50px;bottom:50px;}
+section.blogdetails{margin-bottom:6rem;}
+.justforyoublog{padding:5.25rem 1.875rem 8.75rem 1.875rem;}
+.justforyoublog h4{font-family:"Poppins",Sans-serif;color:rgb(3,45,96);font-size:32px;font-weight:700;letter-spacing:-0.6px;line-height:36.48px;text-align:center;margin:0 0 48px;}
+.justforyoublog ul{display:flex;gap:55px;justify-content:space-between;}
+.justforyoublog .bloglistingcontainer ul li{width:calc((100% / 4) - 55px);padding:0;}
+.justforyoublog ul li .blogforyoubox img{width:100%;border-radius:1rem 1rem 1rem 1rem;box-shadow:0px 0px 24px 4px rgba(0,0,0,0.12);}
+.justforyoublog .bloglistingcontainer ul li a{text-decoration:none;}
+.justforyoublog .bloglistingcontainer ul li a h3{color:rgb(3,45,96);font-size:16px;font-weight:700;letter-spacing:-0.064px;line-height:20px;margin-bottom:6px;font-family:"Poppins",Sans-serif;}
+.justforyoublog .bloglistingcontainer ul li span{font-family:"Poppins",Sans-serif;color:rgb(68,68,68);font-size:14px;letter-spacing:0.8px;line-height:15.96px;}
+.showmoreblog{font-family:"Poppins",Sans-serif;background-color:#0176d3;color:#fff;font-size:15px;font-weight:700;padding:8px 24px;text-decoration:none;position:relative;text-align:center;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle;white-space:nowrap;line-height:1.42;margin-bottom:0;background-image:none;border:1px solid transparent;border-radius:4px;display:block;margin:25px auto;cursor:pointer;}
+.showmoreblog:hover{background-color:#215ca0;}
 /* blog */
