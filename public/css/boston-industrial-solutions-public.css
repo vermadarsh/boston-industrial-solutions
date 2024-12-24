@@ -368,10 +368,10 @@ section.blogdetails .bloglistingcontainer{display:flex;gap:80px;justify-content:
 section.blogdetails .bloglistingcontainer .bloglistingcontainerleft{max-width:678px;width:100%;}
 .bloglistingcontainerrightsidebar{width:100%;max-width:296px;border:solid 1px red;height:500px;position:sticky;top:50px;bottom:50px;}
 section.blogdetails{margin-bottom:6rem;}
-.justforyoublog{padding:5.25rem 1.875rem 8.75rem 1.875rem;}
+.justforyoublog{padding:5.25rem 0rem 8.75rem 0rem;}
 .justforyoublog h4{font-family:"Poppins",Sans-serif;color:rgb(3,45,96);font-size:32px;font-weight:700;letter-spacing:-0.6px;line-height:36.48px;text-align:center;margin:0 0 48px;}
-.justforyoublog ul{display:flex;gap:55px;justify-content:space-between;}
-.justforyoublog .bloglistingcontainer ul li{width:calc((100% / 4) - 55px);padding:0;}
+.justforyoublog ul{display:flex;gap:30px;justify-content:space-between;}
+.justforyoublog .bloglistingcontainer ul li{width:calc((100% / 4) - 30px);padding:0;}
 .justforyoublog ul li .blogforyoubox img{width:100%;border-radius:1rem 1rem 1rem 1rem;box-shadow:0px 0px 24px 4px rgba(0,0,0,0.12);}
 .justforyoublog .bloglistingcontainer ul li a{text-decoration:none;}
 .justforyoublog .bloglistingcontainer ul li a h3{color:rgb(3,45,96);font-size:16px;font-weight:700;letter-spacing:-0.064px;line-height:20px;margin-bottom:6px;font-family:"Poppins",Sans-serif;}
