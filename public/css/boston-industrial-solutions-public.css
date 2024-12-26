@@ -378,7 +378,7 @@ section.blogdetails{margin-bottom:6rem;}
 .justforyoublog .bloglistingcontainer ul li span{font-family:"Poppins",Sans-serif;color:rgb(68,68,68);font-size:14px;letter-spacing:0.8px;line-height:15.96px;}
 .showmoreblog{font-family:"Poppins",Sans-serif;background-color:#0176d3;color:#fff;font-size:15px;font-weight:700;padding:8px 24px;text-decoration:none;position:relative;text-align:center;-webkit-text-decoration:none;text-decoration:none;vertical-align:middle;white-space:nowrap;line-height:1.42;margin-bottom:0;background-image:none;border:1px solid transparent;border-radius:4px;display:block;margin:25px auto;cursor:pointer;}
 .showmoreblog:hover{background-color:#215ca0;}
-.rightbolgdetails .elementor.elementor .e-con>.elementor-widget{width:100%;}
+.rightbolgdetails .elementor-widget{width:100%;}
 .rightbolgdetails .elementor-widget-container{width:100%;}
 .rightbolgdetails .elementor-widget-container img{width: 100%;}
 .justforsticky{position:sticky;top:160px;}
