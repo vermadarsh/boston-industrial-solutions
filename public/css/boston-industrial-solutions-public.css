@@ -381,5 +381,8 @@ section.blogdetails{margin-bottom:6rem;}
 .rightbolgdetails .elementor-widget{width:100%;}
 .rightbolgdetails .elementor-widget-container{width:100%;}
 .rightbolgdetails .elementor-widget-container img{width: 100%;}
-.justforsticky{position:sticky;top:160px;}
+/*.justforsticky {
+    position: sticky !important;
+    top: 150px;
+}*/
 /* blog */
