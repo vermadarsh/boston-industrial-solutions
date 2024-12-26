@@ -380,5 +380,6 @@ section.blogdetails{margin-bottom:6rem;}
 .showmoreblog:hover{background-color:#215ca0;}
 .rightbolgdetails .elementor.elementor .e-con>.elementor-widget{width:100%;}
 .rightbolgdetails .elementor-widget-container{width:100%;}
+.rightbolgdetails .elementor-widget-container img{width: 100%;}
 .justforsticky{position:sticky;top:160px;}
 /* blog */
