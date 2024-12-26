@@ -380,9 +380,6 @@ section.blogdetails{margin-bottom:6rem;}
 .showmoreblog:hover{background-color:#215ca0;}
 .rightbolgdetails .elementor-widget{width:100%;}
 .rightbolgdetails .elementor-widget-container{width:100%;}
-.rightbolgdetails .elementor-widget-container img{width: 100%;}
-.justforsticky {
-    position: sticky !important;
-    top: 150px;
-}
+.rightbolgdetails .elementor-widget-container img{width:100%;}
+.justforsticky{position:-webkit-sticky!important;position:-moz-sticky!important;position:-ms-sticky!important;position:-o-sticky!important;position:sticky!important;top:0;bottom:160px;padding-bottom:160px;height:calc(100vh - 69px)!important;}
 /* blog */
