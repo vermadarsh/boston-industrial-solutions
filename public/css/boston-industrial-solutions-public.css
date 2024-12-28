@@ -433,6 +433,6 @@ section.blogdetails{margin-bottom:6rem;}
 
 
 .aitrendsfourbox {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 /* ai */
