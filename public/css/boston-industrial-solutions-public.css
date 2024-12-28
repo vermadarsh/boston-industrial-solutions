@@ -404,6 +404,18 @@ section.blogdetails{margin-bottom:6rem;}
     overflow: hidden;
 }
 
+.twoimagboxs .elementor-image-box-content {
+    padding: 0 35px 30px;
+}
+
+
+.twoimagboxs .elementor-image-box-content p .textdescriptionbox{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .twoimagboxs .elementor-image-box-content p a.bottomimarbox {
     margin-top: 3em;
     width: 100%;
