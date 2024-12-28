@@ -387,11 +387,17 @@ section.blogdetails{margin-bottom:6rem;}
 
 /* ai */
 
+
 .aitextheaing h2
 {
         background: linear-gradient(89.62deg, #FFFFFF -2.82%, #E5B9FE 62.01%, #9EA9F1 108.31%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.alisection .alitextcontent p a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* ai */
