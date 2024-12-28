@@ -416,10 +416,12 @@ section.blogdetails{margin-bottom:6rem;}
     overflow: hidden;
 }
 
-.twoimagboxs .elementor-image-box-content p a.bottomimarbox {
+.twoimagboxs .elementor-image-box-content a.bottomimarbox {
     margin-top: 3em;
     width: 100%;
     display: block;
+    color: #032d60;
+    text-decoration: underline;
 }
 
 /* ai */
