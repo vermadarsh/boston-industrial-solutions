@@ -478,6 +478,16 @@ section.blogdetails{margin-bottom:6rem;}
     object-fit: cover;
     object-position: bottom;
 }
+.roundbgimg{
+    position: relative;
+}
+
+.roundbgimgbottomimg.elementor-widget.elementor-widget-image {
+    position: absolute;
+    bottom: -85px;
+    top: inherit;
+    height: 130px;
+}
 
 
 /* home new changes */
