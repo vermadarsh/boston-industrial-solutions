@@ -264,7 +264,7 @@ li.active-l1 .c360-nav__nav-panel .c360-nav__l2-panel-message.l2-panel-message-h
 .c360-nav__nav-item-h3{margin:0px;margin-block:0px;margin-inline:0px;font-weight:normal;font-size:initial;}
 .l1-button{color:#0176d3;width:400px;}
 .c360-nav__nav-items-list--l1 li .l1-button span{font-size:16px;line-height:28px;float:left;font-family: "Poppins", sans-serif;
-    color: #242424;font-weight: 500;}
+    color: rgb(3, 45, 96);font-weight: 500;}
 .c360-nav__nav-items-list--l1 li:hover .l1-button span{color:#0176d3;}    
 .nav-item-label--l1{max-width:100%;white-space:nowrap;}
 .nav-item-label--l1,.nav-item-label--l2{position:relative;text-align:left;}
