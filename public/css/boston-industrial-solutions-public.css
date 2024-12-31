@@ -460,12 +460,23 @@ section.blogdetails{margin-bottom:6rem;}
 
 .learnmovefourbox .elementor-image-box-content .lernmorbuttons {
     color: #032d60;
+    letter-spacing: -.002em;
+    line-height: 24px;
     text-decoration: underline;
 }
 
 .learnmovefourbox .elementor-image-box-content .lernmorbuttons:hover {
     color: #0b5cab;
     text-decoration: none;
+}
+
+
+
+.roundbgimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 
