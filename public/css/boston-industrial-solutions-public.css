@@ -14,7 +14,7 @@ a{color: #007BFF;}
 .topbluebar .e-con-inner .elementor-widget-text-editor p a:hover{text-decoration:none;}
 .sticky-header.header-fixed{position:fixed;z-index:9;background:#fff;}
 .onetitle h1{position:relative;}
-.onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}
+/*.onetitle h1:after{content:"";width:30px;height:1px;background-color:#f60014;display:block;margin:20px 0 0;}*/
 .txt-highlight .highlight{border-bottom:1px dashed rgba(0,0,0,0.5);border-bottom-color:rgba(0,0,0,0.5);cursor:pointer;transition:color .4s ease,border-color .4s ease;color:#333;}
 .txt-highlight .highlight:hover{color:#007bff;}
 .startbutton a.elementor-button span.elementor-button-icon{animation:arrowmove 2s infinite;}
