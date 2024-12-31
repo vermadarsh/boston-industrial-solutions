@@ -450,5 +450,10 @@ section.blogdetails{margin-bottom:6rem;}
 
 /* home newchanges */
 .learnmovefourbox{overflow: hidden;}
-
+.learnmovefourbox .elementor-widget-image-box {
+    overflow: hidden;
+}
+.learnmovefourbox .elementor-image-box-content {
+    padding: 30px;
+}
 /* home new changes */
