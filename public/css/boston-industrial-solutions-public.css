@@ -458,5 +458,15 @@ section.blogdetails{margin-bottom:6rem;}
     padding: 30px;
 }
 
-.learnmovefourbox .elementor-image-box-content .lernmorbuttons{color:#032d60;border-bottom:solid 2px #0176d3;}
+.learnmovefourbox .elementor-image-box-content .lernmorbuttons {
+    color: #032d60;
+    text-decoration: underline;
+}
+
+.learnmovefourbox .elementor-image-box-content .lernmorbuttons:hover {
+    color: #0b5cab;
+    text-decoration: none;
+}
+
+
 /* home new changes */
