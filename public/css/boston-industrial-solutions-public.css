@@ -484,7 +484,7 @@ section.blogdetails{margin-bottom:6rem;}
 
 .roundbgimgbottomimg.elementor-widget.elementor-widget-image {
     position: absolute;
-    bottom: -85px;
+    bottom: -85px !important;
     top: inherit;
     height: 130px;
 }
