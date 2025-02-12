@@ -521,3 +521,7 @@ section.blogdetails{margin-bottom:6rem;}
 .tabwithimag .tabwithimagtabs .e-n-tabs-content {
     margin-top: -18%;
 }
+
+.tabwithimag .tabwithimagtabs.nobuttons .e-n-tabs-content {
+    margin-top: 0%;
+}
