@@ -491,3 +491,23 @@ section.blogdetails{margin-bottom:6rem;}
 
 
 /* home new changes */
+
+
+.tabwithimag .tabwithimagtabs span.e-n-tab-title-text {
+    flex-wrap: wrap;
+}
+.tabwithimag .tabwithimagtabs span.e-n-tab-title-text span {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #181818;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    letter-spacing: -.0012em;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 5px;
+    font-weight: 400;
+    display: none;
+}
+.tabwithimag .tabwithimagtabs .e-n-tab-title[aria-selected=true] span.e-n-tab-title-text span{display: block;}
