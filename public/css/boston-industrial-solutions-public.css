@@ -511,3 +511,12 @@ section.blogdetails{margin-bottom:6rem;}
     display: none;
 }
 .tabwithimag .tabwithimagtabs .e-n-tab-title[aria-selected=true] span.e-n-tab-title-text span{display: block;}
+
+.tabwithimag .tabwithimagtabs .e-n-tabs-heading {
+    height: 50%;
+    margin-top: 0;
+}
+
+.tabwithimag .tabwithimagtabs .e-n-tabs-content {
+    margin-top: -18%;
+}
